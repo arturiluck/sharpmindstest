@@ -1,0 +1,13 @@
+# driver: mysql
+driver: redis
+default_values:
+ some_key: string_value
+ some_key_2:
+   type: integer
+   value: 1
+ some_key_3:
+   type: float
+   value: 2
+ some_key_4:
+   type: DateTime
+   value: '2011-01-01 15:03:01' # or any other date time format you choose

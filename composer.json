@@ -1,0 +1,23 @@
+{
+    "name": "sharp_minds/storage",
+    "description": "Test",
+    "keywords": [
+        "storage", "key-value"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Iluck",
+            "email": "arturiluck@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2.0",
+		"predis/predis": "^1.1",
+		"symfony/yaml": "^5.0"
+    },
+    "autoload": {
+        "psr-4": { "SharpMinds\\": "src/" }
+    }
+}
