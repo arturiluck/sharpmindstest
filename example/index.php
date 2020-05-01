@@ -1,6 +1,7 @@
 <?php
 require_once "...../composer-package/vendor/autoload.php";
 
+
 $factory = new \SharpMinds\Storage\Factory();
 //$factory->setCustomConfig($path);
 $factory->setConnectionParameters([
